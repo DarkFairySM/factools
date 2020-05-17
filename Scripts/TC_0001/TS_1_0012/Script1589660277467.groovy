@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Page_Catalog/item1'))
 
-WebUI.click(findTestObject('Page_Product_Detail/color'))
+WebUI.click(findTestObject('Page_Product_Detail/color_ls_green'))
 
 WebUI.click(findTestObject('Page_Product_Detail/color_green'))
 
@@ -36,6 +36,10 @@ WebUI.click(findTestObject('Page_Product_Detail/increase_amount'))
 WebUI.click(findTestObject('Page_Product_Detail/add_item'))
 
 WebUI.waitForElementClickable(findTestObject('Page_Product_Detail/popup_cart'), 4)
+
+WebUI.click(findTestObject('Page_Product_Detail/popup_cart'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

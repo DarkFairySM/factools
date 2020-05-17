@@ -3,18 +3,14 @@
    <description></description>
    <name>cart</name>
    <tag></tag>
-   <elementGuidId>52670a92-6d37-4d88-8457-57ac5f8a796e</elementGuidId>
+   <elementGuidId>28e4f90a-b3c9-4f2b-8c12-eb094f3ff04f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>/html[1]/body[@class=&quot;bg-primary&quot;]/header[@class=&quot;header&quot;]/div[@class=&quot;header-desktop&quot;]/div[@class=&quot;header-topright&quot;]/a[@class=&quot;header-cart&quot;]/i[@class=&quot;icon&quot;]/svg[1]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='แจ้งการโอนเงิน'])[1]/following::*[name()='svg'][1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

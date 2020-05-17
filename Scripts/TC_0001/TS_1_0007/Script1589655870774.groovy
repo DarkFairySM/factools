@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Page_Catalog/item1'))
 
-WebUI.click(findTestObject('Page_Product_Detail/color'))
+WebUI.click(findTestObject('Page_Product_Detail/color_ls_green'))
 
 WebUI.click(findTestObject('Page_Product_Detail/color_green'))
 

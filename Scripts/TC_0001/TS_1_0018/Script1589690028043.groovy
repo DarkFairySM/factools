@@ -21,23 +21,15 @@ WebUI.openBrowser(GlobalVariable.url_catalog)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Page_Catalog/item1'))
+WebUI.click(findTestObject('Page_Catalog/item2'))
 
-WebUI.click(findTestObject('Page_Product_Detail/color_ls_green'))
+WebUI.scrollToPosition(0, 5000)
 
-WebUI.click(findTestObject('Page_Product_Detail/color_green'))
+WebUI.click(findTestObject('Page_Product_Detail/item2'))
 
-WebUI.click(findTestObject('Page_Product_Detail/increase_amount'))
+WebUI.clearText(findTestObject('Page_Product_Detail/amount'))
 
-WebUI.click(findTestObject('Page_Product_Detail/increase_amount'))
-
-WebUI.click(findTestObject('Page_Product_Detail/increase_amount'))
-
-WebUI.click(findTestObject('Page_Product_Detail/add_item'))
-
-WebUI.waitForElementClickable(findTestObject('Page_Product_Detail/popup_shipping'), 4)
-
-WebUI.click(findTestObject('Page_Product_Detail/popup_shipping'))
+WebUI.setText(findTestObject('Page_Product_Detail/amount'), '5')
 
 WebUI.delay(2)
 

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>color</name>
+   <name>color_ls</name>
    <tag></tag>
-   <elementGuidId>120fc535-ad41-4870-ac6d-cc5692d22444</elementGuidId>
+   <elementGuidId>3e3efbec-ed98-45c1-a0fd-b06ea3fb36bc</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='product-variants-0']/div</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = '
@@ -14,7 +18,7 @@
 								เลือกสี
 							
 							
-								เลือกสี เขียว
+								เลือกสี ขาว ดำ ใส
 							
 						' or . = '
 							
@@ -23,13 +27,9 @@
 								เลือกสี
 							
 							
-								เลือกสี เขียว
+								เลือกสี ขาว ดำ ใส
 							
 						')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='product-variants-0']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -60,7 +60,7 @@
 								เลือกสี
 							
 							
-								เลือกสี เขียว
+								เลือกสี ขาว ดำ ใส
 							
 						</value>
    </webElementProperties>
@@ -90,7 +90,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='BOSNY VIT ผงเคมีอุดน้ำรั่ว B216 2ปอนด์ (กป.) BOSNY VIT ผงเคมีอุดน้ำรั่ว B216 2ปอนด์ (กป.)'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ซิลิโคน DEXERIALS L6301 330ml สีขาว (หลอด) ซิลิโคน DEXERIALS L6301 330ml สีขาว (หลอด)'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
