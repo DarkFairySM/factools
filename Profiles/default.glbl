@@ -9,4 +9,9 @@
       <initValue>'https://factools.qa.maqe.com/catalog'</initValue>
       <name>url_catalog</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://factools.qa.maqe.com/cart'</initValue>
+      <name>url_cart</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
