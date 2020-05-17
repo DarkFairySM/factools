@@ -29,6 +29,8 @@ WebUI.click(findTestObject('Page_Product_Detail/item2'))
 
 WebUI.clearText(findTestObject('Page_Product_Detail/amount'))
 
+WebUI.delay(6)
+
 WebUI.setText(findTestObject('Page_Product_Detail/amount'), '5')
 
 WebUI.delay(2)

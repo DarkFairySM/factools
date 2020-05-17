@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Page_Product_Detail/increase_amount'))
 
 WebUI.click(findTestObject('Page_Product_Detail/add_item'))
 
-WebUI.waitForElementClickable(findTestObject('Page_Product_Detail/popup_shipping'), 4)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Page_Product_Detail/popup_shipping'))
 

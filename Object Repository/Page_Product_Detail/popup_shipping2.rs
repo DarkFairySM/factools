@@ -3,18 +3,14 @@
    <description></description>
    <name>popup_shipping2</name>
    <tag></tag>
-   <elementGuidId>c847c9c3-252f-47e2-b7b3-25f6e1bc82ef</elementGuidId>
+   <elementGuidId>f2746f15-62b0-45d9-b653-cc1f28ac8871</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'https://factools.qa.maqe.com/shipping' and (text() = 'ชำระเงิน' or . = 'ชำระเงิน')]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'ชำระเงิน')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='กาวเชื่อมคอนกรีต BOSNY บอสนี่กรีต'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='POLO S-ARC200 เครื่องเชื่อม IGBT'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -31,3 +31,4 @@ WebUI.doubleClick(findTestObject('Page_Product_Detail/decrease_amount'))
 WebUI.delay(2)
 
 WebUI.closeBrowser()
+

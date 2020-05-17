@@ -27,7 +27,5 @@ WebUI.scrollToPosition(0, 5000)
 
 WebUI.click(findTestObject('Page_Product_Detail/item2'))
 
-WebUI.delay(2)
-
 WebUI.closeBrowser()
 

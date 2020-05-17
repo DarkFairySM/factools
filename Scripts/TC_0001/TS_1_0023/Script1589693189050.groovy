@@ -21,7 +21,7 @@ WebUI.openBrowser(GlobalVariable.url_catalog)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Page_Catalog/item2'))
+WebUI.click(findTestObject('Page_Catalog/item3'))
 
 WebUI.scrollToPosition(0, 5000)
 
@@ -31,7 +31,7 @@ WebUI.doubleClick(findTestObject('Page_Product_Detail/increase_amount'))
 
 WebUI.click(findTestObject('Page_Product_Detail/add_item'))
 
-WebUI.waitForElementClickable(findTestObject('Page_Product_Detail/popup_shipping2'), 4)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Product_Detail/popup_shipping2'))
 
